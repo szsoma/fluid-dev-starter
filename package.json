@@ -5,7 +5,15 @@
   "main": "app.js",
   "scripts": {
     "start": "parcel app.js --hmr-port 50619",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel",
+    "build": "parcel build",
+    "preview": "parcel preview",
+    "clean": "rimraf -rf dist",
+    "lint:fix": "eslint ./src --ext .js,.jsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szsoma/fluid-dev-starter.git"
   },
   "author": "Soma Szoboszlai",
   "license": "ISC",
@@ -14,6 +22,11 @@
   },
   "homepage": "https://github.com/szsoma/fluid-dev-starter#readme",
   "dependencies": {
-    "parcel": "^2.12.0"
+    "@studio-freight/lenis": "^1.0.42",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "parcel": "^2.12.0",
+    "rimraf": "^6.0.1",
+    "split-type": "^0.3.4"
   }
 }
