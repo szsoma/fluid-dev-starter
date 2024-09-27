@@ -1,0 +1,19 @@
+{
+  "name": "fluid-dev-starter",
+  "version": "1.0.0",
+  "description": "Webflow development environment template with Parcel.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel app.js --hmr-port 50619",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soma Szoboszlai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szsoma/fluid-dev-starter/issues"
+  },
+  "homepage": "https://github.com/szsoma/fluid-dev-starter#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
